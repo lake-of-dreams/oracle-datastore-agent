@@ -1,6 +1,6 @@
 # 🗄️ Oracle Datastore Agent
 
-A powerful, intelligent agent that leverages Oracle Database 23ai features for optimal data storage and generaing **possible** queries for retrieval. The system combines traditional rule-based analysis with cutting-edge LLM capabilities using local Ollama models, providing privacy-first, cost-effective AI-powered data management.
+A powerful, intelligent agent that leverages Oracle Database 23ai features for optimal data storage and generaing **possible** queries for retrieval. The system combines traditional rule-based analysis with cutting-edge LLM capabilities using local Ollama models, providing privacy-first, cost-effective AI-powered data management. See https://bit.ly/3K8Pkil for more details.
 
 ## ✨ Key Features
 
