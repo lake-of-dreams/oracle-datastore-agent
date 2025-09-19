@@ -1,0 +1,26 @@
+# Oracle Database 23ai Agent Requirements
+cx_Oracle==8.3.0
+oracledb==3.3.0
+pandas==2.3.2
+numpy==1.26.4
+langchain==0.3.27
+streamlit==1.49.1
+python-dotenv==1.1.1
+pydantic==2.11.9
+pydantic-settings==2.10.1
+fastapi==0.116.2
+uvicorn==0.35.0
+sqlalchemy==2.0.43
+sqlparse==0.5.3
+jsonschema==4.25.1
+chardet==5.2.0
+python-magic==0.4.27
+sentence-transformers==5.1.0
+scikit-learn==1.7.2
+nltk==3.9.1
+spacy==3.8.7
+transformers==4.56.1
+torch==2.2.0
+requests==2.32.5
+anyio==4.10.0
+torchvision==0.17
