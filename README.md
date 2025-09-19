@@ -62,46 +62,6 @@ pip install -r requirements.txt
 python run.py
 ```
 
-## 📊 Usage Examples
-
-### 1. Basic Data Storage
-
-```python
-from agent import llm_oracle_agent
-
-# Store JSON data
-json_data = {
-    "users": [
-        {"id": 1, "name": "John", "email": "john@example.com", "active": True},
-        {"id": 2, "name": "Jane", "email": "jane@example.com", "active": False}
-    ]
-}
-
-response = llm_oracle_agent.store_data(json_data)
-print(f"Stored in table: {response.data['table_name']}")
-print(f"Oracle 23ai features: {response.oracle_23ai_features_used}")
-```
-
-### 2. LLM-Enhanced Analysis
-
-```python
-from agent import llm_llm_oracle_agent
-
-# Store with intelligent analysis
-response = llm_llm_oracle_agent.store_data(complex_data)
-print(f"Analysis confidence: {response.analysis_confidence}")
-print(f"Detected patterns: {response.detected_patterns}")
-print(f"LLM insights: {response.llm_insights}")
-```
-
-### 3. Natural Language Queries
-
-```python
-# Query with natural language
-result = llm_llm_oracle_agent.query_data("find all users with admin role")
-print(f"Generated SQL: {result.metadata['generated_sql']}")
-```
-
 ## 🏗️ Architecture
 
 ```
